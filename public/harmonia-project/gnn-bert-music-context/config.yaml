@@ -1,0 +1,21 @@
+seed: 42
+sample_rate: 22050
+n_mels: 128
+n_chroma: 12
+segment_seconds: 5.0
+similarity_tau: 0.7
+max_text_len: 128
+hidden_dim: 64
+gnn_layers: 2
+bert_name: distilbert-base-uncased
+freeze_bert_epochs: 1
+lr: 2.0e-4
+bert_lr: 2.0e-5
+batch_size: 8
+epochs: 8
+temperature: 0.07
+emotion_alpha: 0.2
+emotion_beta: 0.2
+data: synthetic   # synthetic | gtzan | fma_small | mtat
+task: 3           # 1 | 2 | 3 | 4
+device: auto

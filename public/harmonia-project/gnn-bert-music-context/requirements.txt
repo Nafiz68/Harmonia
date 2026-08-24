@@ -1,0 +1,21 @@
+# Core — enough for the synthetic path and GTZAN
+torch>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+pyyaml>=6.0
+tqdm>=4.66
+pandas>=2.1
+
+# Audio
+librosa>=0.10.1
+soundfile>=0.12
+
+# Text
+transformers>=4.40
+tokenizers>=0.19
+
+# Optional: only if you want official PyG GraphSAGE
+# torch-geometric>=2.5
+
+# Plots / notebooks
+matplotlib>=3.8
